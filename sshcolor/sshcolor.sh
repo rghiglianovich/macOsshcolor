@@ -1,4 +1,4 @@
-#!/bin/sh
+ #!/bin/sh
 
 
 
@@ -7,11 +7,11 @@
 
 
 
-LOCAL="mac1"
+LOCAL="local"
 
-osascript -l JavaScript ~/sshcolor/sshcolor.scpt $@  > /dev/null
+osascript -l JavaScript ~/macOsshcolor/sshcolor.js $@  > /dev/null
 
 /usr/bin/ssh "$@"
 
 # Change the color of the terminal back to what it was before
-osascript -l JavaScript  ~/sshcolor/sshcolor.scpt $LOCAL > /dev/null
+osascript -l JavaScript  ~/macOsshcolor/sshcolor.js $LOCAL > /dev/null
