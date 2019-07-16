@@ -1,11 +1,11 @@
 # macOsshcolor
 
-###credits
+### credits
 baesed on the work found here:
 https://gist.github.com/henrytseng/f58ec119d5d989a6306d769d212b7648
 
 
-##usage:
+## usage:
 
 put it in your home directory
 
