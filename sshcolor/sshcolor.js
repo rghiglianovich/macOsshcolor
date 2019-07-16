@@ -2,9 +2,7 @@
 var args = $.NSProcessInfo.processInfo.arguments
 var par=ObjC.unwrap(args.objectAtIndex(args.count -1))
 aa=par.split("@")
-var nome;
-
-nome =aa[aa.length -1]
+var nome  =aa[aa.length -1]
 nome = nome.split('.')[0]
 
 remotegeneric="remote"

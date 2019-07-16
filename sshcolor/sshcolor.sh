@@ -1,8 +1,5 @@
 #!/bin/sh
 
-
-
-
 # alias ssh="~/sshcolor/sshcolor.sh"
 
 
