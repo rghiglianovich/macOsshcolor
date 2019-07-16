@@ -1,7 +1,7 @@
 # macOsshcolor
 
 ###credits
-baesed on the work found here:
+baesed on Henry Tseng's work  found here:
 https://gist.github.com/henrytseng/f58ec119d5d989a6306d769d212b7648
 
 
