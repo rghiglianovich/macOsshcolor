@@ -7,27 +7,26 @@ With it you can have a custom profile for each remote server you usually use.
 
 
 ### credits
-baesed on Henry Tseng's work  found here:
+Based on Henry Tseng's work  found here:
 https://gist.github.com/henrytseng/f58ec119d5d989a6306d769d212b7648
 
 ## usage:
  
- clone it (https://github.com/rghiglianovich/macOsshcolor)  in your home directory.
+* Clone it (https://github.com/rghiglianovich/macOsshcolor)  in your home directory.
  If you like to save it elsewere, remember to modify the paths!
 
-create an alias:
+* Create an alias:
 
- alias ssh="~/macOsshcolor/sshcolor.sh"
+      alias ssh="~/macOsshcolor/sshcolor.sh"
  
- you should save it into ~/.bash_profile or  ~/.zshrc or wherever 
+   You should save it into ~/.bash_profile or  ~/.zshrc or wherever 
  
-create your profiles in Terminal/Preferences
+ * Create your profiles in Terminal/Preferences:
 
-at least: 
-* a profile for Local connections, named "local"
-* another  one for generic (or backup) remote: "remote"
-* one for each remote server you'd like to colorize. The name must be the left part of the fqdn name 
-  for example: for a connection like
-      ssh john@myserver42.remote.com
-   the profile must be called "myserver42"
+    * a Profile for Local connections, named "_local_"
+    * another  one for generic (or backup) remote: "_remote_"
+    * one other for each remote server you'd like to colorize. The name must be the left part of the FQDN name<br /> 
+      Example: for a connection like
+          **ssh john@myserver42.remote.com**    the profile must be called _myserver42_<br />
+       If the server you're connecting to  doesn't have a custom profile, the generic one will be taken
 
