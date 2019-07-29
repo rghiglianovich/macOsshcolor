@@ -1,5 +1,11 @@
 # macOsshcolor
 
+
+This  script changes the macOS Terminal.app Profile, according to the remote server name you are SSHing. 
+
+With it you can have a custom profile for each remote server you usually use.
+
+
 ### credits
 baesed on Henry Tseng's work  found here:
 https://gist.github.com/henrytseng/f58ec119d5d989a6306d769d212b7648
