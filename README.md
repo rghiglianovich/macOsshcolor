@@ -6,7 +6,8 @@ https://gist.github.com/henrytseng/f58ec119d5d989a6306d769d212b7648
 
 ## usage:
  
- clone it (https://github.com/rghiglianovich/macOsshcolor)  in your home directory
+ clone it (https://github.com/rghiglianovich/macOsshcolor)  in your home directory.
+ If you like to save it elsewere, remember to modify the paths!
 
 create an alias:
 
