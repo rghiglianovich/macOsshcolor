@@ -7,7 +7,8 @@ With it you can have a custom profile for each remote server you usually use.
 
 
 ### Credits
-Based on Henry Tseng's work  found here:
+
+This script is inspired by  Henry Tseng's one  found here:
 https://gist.github.com/henrytseng/f58ec119d5d989a6306d769d212b7648
 
 ## Usage:
