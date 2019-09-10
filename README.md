@@ -41,9 +41,9 @@ you can have a json file with a collection of relations "servername":"profile na
    Example: for a connection like
            **ssh john@myserver42.remote.com**     _"myserver42"_ will be searched.<br />
 
-    If the name does not have an entry in the sshcolorNames.json, then a Profile with the same name is searched<br />
+ * If the name does not have an entry in the sshcolorNames.json, then a Profile with the same name is searched<br />
      
-   If the server you're connecting to  doesn't match with a custom profile 
+ * If the server you're connecting to  doesn't match with a custom profile 
    or with an entry on the sshcolorNames.json file, the generic one  ("_remote_") will be taken.
        
 
